@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Raleway:wght@200;400;500;700&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.name {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+header {
+    background-image: url(./Profile-Upper-Background.jpg);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#projects {
+    margin-top: 30px;
+}
+
+.project {
+    border: outset;
+    border-width: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+
+.project-image {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.project summary {
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    margin-right: 3rem;
+    
+}
+
+.link {
+    text-decoration-line: none;
+    text-decoration-color: white;
+}
+
+.link:link {
+    color: white;
+}
+
+.link:visited {
+    color: white;
+}
+
+.link:hover {
+    color: white;
+}
+
+.link:active {
+    color: rgb(8, 20, 250);
+}
+
+.about-me {
+    display: flex;
+}
+
+.about-me-container {
+    margin-top: 30px;
+    display: flex;
+}
+
+.about-me-text-container {
+    display: block;
+    text-align: left;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.skill-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-logo {
+    width: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contact me Page*/
+
+.contact {
+    text-align: center;
+}
+
+.contact-me {
+    margin-top: 180px;
+}
+
+.buttons {
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 250px;
+}
+
+.button1 {
+    display: block;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 110, 220);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    outline: none;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+.button1:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.button1:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+
+

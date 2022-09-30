@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./docs/style.css">
+    <title>Profile - Santiago De la Rosa</title>
+</head>
+<body>
+    <header>
+        <a href="C:\Users\santy\OneDrive\Escritorio\Portfolio\ProjGitHub\index.html" class="name"><h1> Santiago De la Rosa</h1></a>
+        <ul>
+            <li><a href="#about-me" class="link">About Me</a></li>
+            <li><a href="#projects" class="link">Projects</a></li>
+            <li><a href="#skills" class="link">Skills</a></li>
+            <li><a href="./contactme.html" class="link">Contact Me</a></li>                
+        </ul>
+    </header>
+    <main>
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-text-container">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Santiago, and this is my profile on coding. 
+                        Since july 2022 I started in this journey of learning 
+                        how to design, create, modify and some other skills related to web design.
+                    </p>   
+                    <p>I have experience in the mortgage industry for 5 years as a Loan Officer (I'm still licensed) 
+                        and I always thought on enrolling to learn about coding. The idea of learning 
+                        about web development always has been in my mind.
+                    </p>
+                    <p>Also I'm a father! I have a 1 and a half years old boy and that is another field I'm learning.
+                        In my free time I love going to the gym, play soccer and ride my motorcycle
+                    </p>
+                </div>
+                <img src="./docs/foto perfil santi.jpg" alt="Profile Image Santiago De la Rosa" class="profile-pic">
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <details class="project">
+                <summary>Tea Cozy</summary>
+                <br>
+                <img src="./docs/TeaCozy Logo.png" alt="Tea Cozy Logo" class="project-image"/>
+                <p>Tea Cozy is a Tea and donuts store, with 3 locations in Maine, USA.</p>
+            </details>
+            <details class="project">
+                <summary>La Mafia CLub</summary>
+                <br>   
+                <img src="./docs/LaMafia Logo.png" alt="La Mafia Club Logo" class="project-image"/>
+                <p>La Mafia is an Exclusive Social Group funded in 1947 after WWII in the south Washington D.C. area.</p>
+            </details>
+            <details class="project">
+                <summary>Cafe Store</summary>
+                <br>
+                <img src="./docs/Cafe logo.png" alt="Cafe Store Logo" class="project-image"/>
+                <p>Cafe is a book and coffee store, where public can enjoy of a quiet space inside Seattle.</p>
+            </details>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-container">
+                <img src="./docs/chrome logo.png" alt="Chrome Logo" class="skills-logo"/>
+                <img src="./docs/css3 logo.png" alt="CSS3 Logo" class="skills-logo"/>
+                <img src="./docs/git logo.png" alt="Git Logo" class="skills-logo"/>
+                <img src="./docs/github logo.png" alt="GitHub Logo" class="skills-logo"/>
+                <img src="./docs/html5 logo.png" alt="HTML5 Logo" class="skills-logo"/>
+                <img src="./docs/javascript logo.png" alt="JavaScript Logo" class="skills-logo"/>
+                <img src="./docs/node logo.png" alt="NodeJS Logo" class="skills-logo"/>
+                <img src="./docs/terminal logo.png" alt="Terminal Logo" class="skills-logo"/>
+            </div>
+        </section>
+        <footer>All rights belong to my wife. She even handles the groceries</footer>
+    </main>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+</body>
+</html>
